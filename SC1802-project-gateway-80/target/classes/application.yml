@@ -1,0 +1,16 @@
+server:
+  port: 80
+spring:
+  application:
+    name: zpark-sc-gateway
+  cloud:
+    gateway:
+      routes:
+      - id: indexPage-route
+        uri: http://localhost:4001
+        predicates:
+        - Path=/**
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka
