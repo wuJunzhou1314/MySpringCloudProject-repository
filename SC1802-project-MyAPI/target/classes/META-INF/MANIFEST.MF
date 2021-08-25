@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: SC1802-project-MyAPI
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: lenovo
+Implementation-Vendor-Id: com.zpark.sc
+Build-Jdk: 1.8.0_131
+Implementation-URL: https://spring.io/projects/spring-boot/SC1802-proj
+ ect-parent/SC1802-project-MyAPI
+Created-By: Maven Integration for Eclipse
+
